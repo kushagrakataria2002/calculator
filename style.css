@@ -1,0 +1,22 @@
+*{
+    margin:0px; 
+    padding:0px; 
+    font-family: 'Poppins', sans-serif;
+}
+.container1{
+    width: 100vw; 
+    height:100vh; 
+}
+.outerBody{
+    /* border:2px solid green;  */
+    width:500px; 
+    height:90vh;
+    background-color: #b2bec3;
+    /* flex-shrink: 0; */
+}
+.resultBar{
+    cursor: not-allowed;  
+}
+.resultBar:focus{
+    outline:none; 
+}
